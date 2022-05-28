@@ -1,0 +1,960 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.div{
+    display: flex;
+    border-bottom: 2px solid #9aaa97;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+header{
+    width: 100%;
+    
+    color: #65735b;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: white;
+    position: sticky;
+z-index: 1;
+    top: 0;
+    /* padding: 20px 20px 10px 20px; */
+}
+.logo
+{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+} 
+nav{
+    margin-left:15px ;
+}
+.logo ul{
+    list-style: none;
+    display: flex; 
+    cursor: pointer;   
+}
+.logo ul li{
+margin: 0 10px;
+}
+.logo li:hover{
+    color: #14a800;
+}
+.rightsec{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.search
+{
+    width: 45%;
+    border-radius:20px;
+    border: 1px solid gray;
+    padding: 10px;
+    display: flex;
+    font-size: 15px;
+    font-weight: bold;
+
+    margin: 15px 2px 15px 5px;
+}
+.search i{
+    margin: 0 03px;
+}
+
+.search input{
+    margin: 0 5px;
+    border: none;
+    outline: none;
+}
+.btn button{
+    background-color: transparent;
+    
+  
+    /* padding: 8px; */
+    border: none;
+    background-color: transparent;
+    color: #657360;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    margin-right: 10px;
+   
+}
+
+.btn .signup{
+    border-radius: 18px !important;
+    background-color: #14a800 !important;
+    color: white !important;
+;
+    padding: 10px 25px;
+    /* font-size: lar; */
+    font-size: 15px;
+    font-weight: bold;
+
+}
+/* 
+body{
+    background-color: blue;
+} */
+.extraLinks{
+    /* margin-top: 30px; */
+    margin:0 50px;
+    width: 85%;
+    font-size: 15px;
+
+
+    font-weight: bold;
+    color:  #65735b;
+    padding-top: 30px;
+  padding-bottom: 20px;
+
+    /* padding-left: 50px; */
+
+    
+}
+
+.extraLinks ul {
+    list-style: none;
+    display: flex;
+    color: #657360;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    cursor: pointer;
+    
+}
+.extraLinks ul li{
+    /* margin: 0 15px; */
+    margin: 5px 5px;
+}
+.extraLinks li:hover{
+    color: #14a800;
+}
+
+.content
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    width: 100%;
+
+    padding: 20px;
+}
+.col1
+{
+    width: 50%;
+    /* margin: 10px; */
+    /* border: 2px solid red; */
+    padding: 10px;
+}
+.col1_content h1{
+    color: #14a800;
+    font-size: 72px;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+.col1_content h3 {
+    color: #65735b;
+    font-size: x-large;
+    margin: 20px 0 ;
+}
+.col1_content button{
+    background-color: transparent;
+    border: 1px solid #14a800;
+    padding: 10px 25px;
+    border-radius: 20px;
+    color:#14a800;
+    margin-right: 10px;
+    /* font-size: medium; */
+}
+.col1_content .btn1{
+    background-color: #14a800 !important;
+    color: white;
+}
+.col1_logos{
+    margin-top: 40px;
+    padding: 20px 0 0px 0;
+    color: #65735b;
+    font-size: medium;
+    /* border: 2px solid red; */
+}
+.col1_logos p
+{
+    /* border: 2px solid #14a800; */
+    margin: 0 0 10px 0;
+}
+
+.col1_logos img{
+    /* width: 90px; */
+    margin: 0 10px 10px 0 ;
+}
+.col2
+{
+    width: 40%;
+    /* padding: 10; */
+/* padding-top:20px; */
+
+    padding-right: 0;
+    /* border: 2px solid green; */
+
+}
+.col2 img{
+width: 400px;
+/* margin-left: 10px; */
+/* border: 2px solid blue; */
+
+}
+.content2{
+    display: flex;
+    justify-content: space-evenly ;
+    flex-wrap: wrap;
+flex-direction: row;
+    margin: 30px 0;
+    padding: 10px;
+}
+.box1
+{
+    width: 60%;
+    margin-left: 20px;
+    background-color:  #f2f7f2;
+    border-radius: 16px;
+    /* position: relative; */
+    display: flex;
+    justify-content: center;
+    /* z-index: -1; */
+padding: 10px 0 20px 10px;
+}
+.box1_content{
+    width: 60%;
+    padding: 10px;
+}
+.box1_content h1{
+    font-size: 62px;
+    font-weight: normal;
+margin: 10px 0;
+}
+.box1_content h2{
+    font-size: xx-large;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.box1_content h2 i{
+    margin-right: 10px;
+}
+.box1_content p{
+    margin-left:30px ;
+    font-size: 16px;
+    color: #65735b;
+}
+.box1_img
+{width: 40%;/* top: -10; */margin-top: -40px;
+position: relative;
+}.box1_img img{
+  
+   /* vertical-align: middle; */
+   position: absolute;
+top:50;
+   /* width: 100%; */
+
+}
+.box2{
+    background-color: #14a800;
+    /* align-items: center; */
+
+    border-radius: 16px;
+padding: 10px;
+width: 30%;
+z-index: -1;
+padding-top: 200px;
+padding-left: 30px;
+font-weight: normal;
+color: white;
+}
+.box2 h1{
+    font-size: xx-large;
+    font-weight: normal;
+    margin-top: 15px;
+}
+.box2 h1 i{
+    margin-right: px;
+}
+.final_talent
+{
+    background-image: url(./images/find-talent.06d34b1.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 92%;
+    margin: 100px auto;
+    border-radius: 16px;
+    color: white;
+    padding: 30px;
+}
+
+.final_talent_content h1{
+    font-size: 62px;
+    margin: 40px 0px;
+}
+.final_talent_content h2{
+    margin-bottom: 50px;
+}
+.final_talent_content h3{
+    margin: 15px 0;
+}
+.cards
+{
+    display: flex;
+   justify-content: space-between;
+margin: 30px 0 10px 0;
+}
+.cards section{
+    width: 30%;
+    /* flex: 1; */
+    border-radius: 14px;
+    background-color: #14a800;
+    color: white;
+    padding: 15px;
+}
+.cards section h1{
+    font-size: xx-large;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+.cards section:hover{
+    color: #14a800;
+    background-color: white;
+}
+.hire_pro{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.hire_pro_cont {
+    width: 40%;
+    padding: 20px;
+    margin-left: 20px;
+
+}
+.hire_pro_cont h1{
+    font-size: 70px;
+    font-weight: normal;
+    margin: 20px 0;
+}
+.hire_pro_cont ul li{
+    list-style: none;
+    font-size: xx-large;
+    color: #65735b;
+}
+.hire_pro_cont ul li:hover{
+    color: #14a800;
+    cursor: pointer;
+}
+.hire_pro_img{
+    width: 40%;
+    padding: 20px;
+    margin-left: 15px;
+
+}
+.hire_pro_img img{
+    width: 100%;
+    border-radius: 14px;
+}
+.hire_pro_cont ul .clr_green{
+    color: #14a800;
+}
+.btn_div {
+    margin-top: 10px;
+
+}
+.btn_div button{
+    margin: 5px ;
+    padding: 10px 12px;
+    color: #65735b;
+    background-color: transparent;
+    border-radius: 20px ;
+    border: 2px solid gray;
+    font-size: medium;
+}
+.for_talent{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    border-radius: 16px;
+}
+.for_talent_img
+{
+    width: 45%;
+}
+.for_talent_img img{
+    width: 100%;
+    border-radius: 16px ;
+
+}
+.for_talent_cont{
+    width: 50%;
+    background-color: #1f57c3;
+    color:white;
+    padding: 30px;
+    /* margin-bottom: 10px; */
+    border-radius: 16px;
+    display: flex;
+    
+
+}
+.for_talent_cont button{
+    border-radius: 20px;
+    padding: 10px 20px;
+    background-color: white;
+    color: #1f57c3;
+    font-size: medium;
+    border: none;
+}
+.for_talent_cont1 h3{
+    font-size: x-large;
+    margin: 10px 0;
+}
+.for_talent_cont1 h1{
+    font-size: 65px;
+    margin: 10px 0;
+}
+
+.for_talent_cont2{
+    display: flex;
+    border-top: 2px solid white;
+    justify-content: space-around;
+    padding: 15px 0;
+    align-items: flex-end;
+    height: 150px;
+    
+
+}
+.for_talent_cont2 p{
+    width: 30%;
+}
+.img2
+{
+    /* width: 100%; */
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+.img2 h1{
+    font-size: 45px;
+}
+/* .img2_col1{
+    width: 30%;
+    background-color: gray;
+    margin-top: 100px;
+    padding: 20px;
+
+
+
+
+} */
+.img2_card{
+    width: 30%;
+    padding: 20px;
+}
+#space {
+    /* font-size: 55px;
+    margin-bottom: 90px; */
+    /* width: 50%; */
+    margin-top:100px;
+
+}
+.img2_card img{
+    width: 100%;
+    border-radius: 12px;
+}
+.img2_card h2{
+    color: #14a800;
+    font-weight: normal;
+    margin: 10px 0;
+}
+.img2_card .clr_black
+{
+    color: black;
+    border-top: 1px solid black; 
+    /* margin: 10px 0;  */
+    padding: 5px 0;
+
+}
+
+
+.img2_card p{
+    font-size: medium;
+    color: #65735b;
+}
+.top_skills
+{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px;
+    padding: 20px;
+}
+.top_skills ul 
+{
+    list-style: none;
+}
+.top_skills ul li{
+    margin: 10px;
+    color: #7e735b;
+
+}
+.div1 .div2{
+    width: 30%;
+}
+.div2{
+    font-size: x-large;
+
+}
+.div1 ul li:first-child
+{color: #14a800;
+}
+.div1 ul li{
+    color: lightgray;
+}
+.div1 ul li:hover{
+    color: #14a800;
+}
+.div1{
+    font-size: xx-large;
+}
+footer
+{
+    background-color: #001e00;
+    color: white;
+    font-size: small;
+    padding: 25px;
+    width: 100%;
+
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+}
+.footer_links {
+    width: 20%;
+}
+.footer_links ul
+{list-style: none;
+}
+.footer_links p{
+    margin: 25px 0;
+}
+.footer_links ul li{
+ margin: 15px 0;
+}
+.footer_icons{
+    display: flex;
+    justify-content: space-between;
+    /* width: 80%; */
+  margin: 20px;
+    border-top: 2px solid white;
+    border-bottom: 1px solid white;
+
+    /* border-bottom: 2px soild white; */
+align-items: center;
+    padding: 10px;
+}
+
+  .footer_icons .fa {
+    padding: 8px;
+    /* width: 30px; */
+    font-size: small;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    color: white;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 1px solid white;
+  }
+ 
+  .footer_links ul li:hover{
+      cursor: pointer;
+      text-decoration: underline;
+  }
+  .icons_rhs {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+
+  }
+  .icons_rhs p{
+      padding: 10px;
+  }
+  .icons_lhs
+  { display: flex;
+      /* align-items: flex-end; */
+      align-items: center; }
+.icons_lhs p{
+    padding: 10px;
+}
+.div_end ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+.div_end ul li{
+    margin: 5px 3px;
+}
+
+
+@media only screen and (max-width:1010px) {
+    header
+    {
+        font-size: small;
+    }
+    .hire_pro_cont h1 {
+        font-size: xx-large;
+        
+    }
+    .hire_pro_cont ul li {
+        font-size: large;
+        
+    }
+}
+@media only screen and (max-width:575px) {
+    .logo 
+    {
+       /* text-align: center; */
+       justify-content: center;
+    }
+    /* .rightsec{
+        font-size: small;
+
+    } */
+    
+    .btn button{
+        font-size: small;
+
+    }
+    .btn .signup{
+        font-size: small;
+
+    }
+    .extraLinks ul li{
+        font-size: x-small;
+        
+    }
+    .search{
+        padding: 5px;
+    }
+    .search input{
+        
+        font-size: x-small;
+
+    }
+    
+    .cards { flex-direction: column;}
+    .footer{ font-size: xx-small; }
+    .cards section{width: 90%; margin: 5px 3px;
+     display: flex; align-items: flex-end; 
+     justify-content: space-between;}
+.cards section h1{
+            font-size: small;}
+.cards section p{
+font-size: x-small;
+}
+/* .final_talent{
+    background-image: url(./images/find-talent-mobile.11b9e0a.jpg);
+    background-position: center center;
+padding: 50px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 80%;
+} */
+.final_talent_content h2
+{
+        margin-bottom: 30px;
+}
+.img2{
+    display: flex;
+    flex-direction: column;
+}
+.img2_card{
+    display: flex;
+    width: 100%;}
+.img2_card img{
+    width:120px; 
+    margin: 10px; }
+    
+    .div2 ul li{
+        font-size: small;
+    
+    }
+    .div1 ul li{
+        font-size: small;
+    
+    }
+}
+@media only screen and (max-width:430px) {
+    .logo{
+        margin-left: 0px;
+    }
+    .logo ul li{
+        margin: 0 5px;
+        }
+        .extraLinks ul li{
+            font-size: small;
+        }
+       
+    
+}
+@media only screen and (max-width:380px) {
+    
+    .logo ul li{
+        margin: 0 5px;
+        font-size: x-small;
+        }
+        /* .extraLinks ul li{
+            font-size: x-small;
+        } */
+    
+}
+@media only screen and (max-width:880px)
+{
+    .col1_content h1 {
+        font-size: 52px;
+
+    }
+    .col1_content h3{
+        font-size: large;
+    }
+    .col1_logos img
+    {
+
+        width: 60px;
+    }
+    .col2 img{
+        width: 300px;
+    }
+    .cards section h1{
+        font-size: medium;
+        font-weight: bold;
+
+    }
+    .cards section p{
+        font-size: x-small;
+    }
+    .final_talent_content{
+        margin-top: 30px;
+
+        
+    }
+    .final_talent_content h1{
+        margin-top: 20px ;
+        font-size: 42px;
+    }
+    .final_talent_content h3{
+        margin-top: 20px 0;
+
+        font-size: large;
+    }
+    
+    .top_skills .div1{
+        font-size: large;
+    }
+    .top_skills .div2{
+        font-size: medium;
+    }
+}
+@media only screen and (max-width:700px)
+{
+    .col1{
+        width: 90%;
+    }
+    .col1_content h1
+    {
+        /* font-size: xx-large; */
+        margin-top: -30px;
+        font-size: 42px;
+    }
+    .col1_content h3
+    {
+        font-size: large;
+    }
+    .col1_logos img{
+
+        width: 50px;
+
+    }
+    .col2  {display: none;}
+  .img2_card h2{font-size: medium;}
+.img2 h1{font-size: xx-large; }
+.img2_card p{font-size: small;
+}
+}
+@media only screen and (max-width:770px)
+{
+    .extraLinks ul li{
+        font-size: small;
+        margin: 5px;
+    }
+    .hire_pro {
+        flex-direction: column;
+        
+    }
+    .btn_div button{
+        font-size: x-small;
+        
+    }.hire_pro_cont {
+      width: 80%;
+      text-align: center;
+        
+    }
+    .hire_pro_img {
+        width: 80%;
+text-align: center;        
+    }
+    .content2{
+        flex-direction: column;
+    }
+    .box1{
+        width: 90%;
+        /* margin: 0 auto; */
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        background-color: transparent;
+    }
+    .box1_img{
+        width: 30%;
+    }
+    .box1_content{
+        width: 100%;
+    }
+    .box1 h1
+    {
+        font-size: xx-large;
+        font-weight:bold;
+    }
+    .box1 h2{
+        font-size: x-large;
+    }
+    /* .box1_img{
+        display: none;
+    } */
+    .box2{
+        width: 90%;
+        /* display: flex; */
+        margin: 0 auto;
+
+        padding-top: 0;
+    }
+    .box2 h1{
+        font-size: xx-large;
+        font-weight:bold;
+    }
+    .img2_card h2{
+        font-size: medium;
+    }
+    .img2 h1{
+        font-size: x-large;
+    }
+    .img2_card p{
+        font-size: small;
+    }
+    
+    .box2 h2{
+        font-size: x-large;
+    }
+    .for_talent{
+        flex-direction: column;
+    }
+    .for_talent_cont{
+        width: 90%;
+        align-items: center;
+        border-radius: 16px;
+
+    }
+    .for_talent_img{
+        width: 90%;
+        border-radius: 16px;
+        align-items: center;
+    }
+    .footer_icons{
+        justify-content: space-around;
+    }
+    .icons_lhs{
+        font-size: xx-small;
+    }
+    .icons_rhs{
+        font-size: xx-small;
+    }
+    .footer_icons .fa {
+        padding:  5px;
+        /* width: 30px; */
+        font-size: xx-small;
+        text-align: center;
+        text-decoration: none;
+border: 1px solid white;
+        margin: 3px 2px;
+        color: white;
+        border-radius: 50%;
+        background-color: transparent;
+      }
+      .div_end ul{
+          font-size: xx-small;
+
+      }
+}
+@media only screen and (max-width:1100px) {
+    .for_talent h1
+    {
+        font-size: 40px;
+    }
+    .for_talent h3
+    {
+        font-size: large;
+    }
+    .for_talent p
+    {
+        font-size: small;
+    }
+    .box1_img{
+        display: none;
+    } 
+}
+@media only screen and (max-width:925px)
+{   .for_talent_img img{
+        height: 100%
+    } 
+      
+}
+/* @media only screen and (max-width:1010px)
+{
+    .box1_img img{
+        margin-top: 0;
+        margin-right: 0;
+        width: 100%;
+    }
+}
+@media only screen and (max-width:660px)
+{
+    .box1_img {
+        width: 40%;
+
+    }
+    .box1_img img{
+        width: 150px;
+    }
+}
+@media only screen and (max-width:540px)
+{
+    .box1_img {
+        width: 30%;
+
+    }
+    .box1_img img{
+        width: 100px;
+    }
+    
+} */
